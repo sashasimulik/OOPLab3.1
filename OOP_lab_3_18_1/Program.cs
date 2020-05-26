@@ -19,6 +19,7 @@ namespace OOP_lab_3_18_1
             }
 
             string str = "";
+            
 
             foreach (string word in words)
             {
@@ -43,6 +44,7 @@ namespace OOP_lab_3_18_1
                     }
                 }
 
+                
                 if (k != word.Length)
                 {
                     str += word + " ";
